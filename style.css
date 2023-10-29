@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('https://i.pinimg.com/564x/ea/d5/7d/ead57d2fca2feca580e00b76d9c5699c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Helvetica;
+}
+
+
+header {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*1anzvwd*_ga*ODM3MTk3NTE5My4xNjk3NjgzMzUx*_ga_3LRZM6TM9L*MTY5ODYwODI3OC4yMy4xLjE2OTg2MTEzMzkuMTkuMC4w");
+    background-size: cover;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+   
+    
+}
+
+.navigation {
+    background-color: aqua;
+}
+
+.navigation a {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+
+}
+
+.sections {
+    width: 100%;
+    background-color: MediumSpringGreen;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+
+.strong {
+    color: blue;
+}
+
+#frames {
+background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
+
+@media (min-width: 576px) {
+    
+    .sections {
+        flex-wrap: wrap;
+    }
+
+
+}
