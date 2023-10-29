@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('https://i.pinimg.com/564x/ea/d5/7d/ead57d2fca2feca580e00b76d9c5699c.jpg');
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*1anzvwd*_ga*ODM3MTk3NTE5My4xNjk3NjgzMzUx*_ga_3LRZM6TM9L*MTY5ODYwODI3OC4yMy4xLjE2OTg2MTEzMzkuMTkuMC4w');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Helvetica;
@@ -76,6 +76,10 @@ background-color: lightcoral;
     
     .sections {
         flex-wrap: wrap;
+    }
+
+    p {
+        color: aliceblue;
     }
 
 
